@@ -1,0 +1,26 @@
+{
+  "name": "examples",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify -d -e app.js -o bundle.js -t babelify",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "azu",
+  "license": "MIT",
+  "dependencies": {
+    "es6-symbol": "^3.0.2",
+    "material-flux": "^1.4.0",
+    "material-flux-container": "file:..",
+    "react": "^0.14",
+    "react-dom": "^0.14.3"
+  },
+  "devDependencies": {
+    "babel": "^6.0.0",
+    "babel-preset-react": "^6.3.13",
+    "babelify": "^7.2.0",
+    "browserify": "^12.0.1"
+  }
+}
