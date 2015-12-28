@@ -1,4 +1,4 @@
-# material-flux-example
+# material-flux-container-example
 
 ## Installation
 
@@ -7,7 +7,7 @@
 ## Usage
 
     npm run build
-    open index.js
+    open index.html
 
 ## Contributing
 
